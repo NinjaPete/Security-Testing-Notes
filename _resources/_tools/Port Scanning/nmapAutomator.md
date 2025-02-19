@@ -1,4 +1,5 @@
 https://github.com/21y4d/nmapAutomator
+
 ```
 ./nmapAutomator.sh -h
 Usage: nmapAutomator.sh -H/--host <TARGET-IP> -t/--type <TYPE>
