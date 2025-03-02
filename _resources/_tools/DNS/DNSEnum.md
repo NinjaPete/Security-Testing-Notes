@@ -1,0 +1,1 @@
+`dnsenum example.com` - performs standard enumeration including reverse lookups, netranges, bruteforcing.

@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "a818a93e73c8a319",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae5022af5915fa0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ff2c5e70d21547b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ea2c1932b5a9e20",
+    "type": "split",
+    "children": [
+      {
+        "id": "59180e1436605ca7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a021f208f687bb5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "28eb22105c8782ce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "494e6d875c884f1a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b3d54ca1a202d08f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fc6f31d0cad783d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8a4b832b6e37745",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f63b7d3b778a8983",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b74a6b79d3415df1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6ddc2db727cb196e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8a021f208f687bb5",
+  "lastOpenFiles": [
+    "3. Privilege Escalation/3.2 Linux Privilege Escalation/3.2.2 Linux Post Exploitation.md",
+    "3. Privilege Escalation/3.2 Linux Privilege Escalation/3.2.1 Linux Privilege Escalation.md",
+    "3. Privilege Escalation/3.1 Windows Privilege Escalation/3.1.2 Windows Post Exploitation.md",
+    "3. Privilege Escalation/3.1 Windows Privilege Escalation/3.1.1 Windows Privilege Escalation Techniques.md",
+    "3. Privilege Escalation/3.2 Linux Privilege Escalation",
+    "3. Privilege Escalation/3.1 Windows Privilege Escalation",
+    "3. Privilege Escalation",
+    "2. Exploitation/2.3 Active Directory Exploitation/2.3.5 Persistence.md",
+    "2. Exploitation/2.3 Active Directory Exploitation/2.3.4 Lateral Movement.md",
+    "2. Exploitation/2.3 Active Directory Exploitation/2.3.3 Miscellaneous Attacks.md",
+    "2. Exploitation/2.3 Active Directory Exploitation/2.3.2 Further Attacks.md",
+    "2. Exploitation/2.3 Active Directory Exploitation/2.3.1 Initial Access Attacks.md",
+    "2. Exploitation/2.2 Password Attacks/2.2.3 Password Cracking.md",
+    "2. Exploitation/2.2 Password Attacks/2.2.2 Attacking Network Services.md",
+    "2. Exploitation/2.2 Password Attacks/2.2.1 Generating Password Lists.md",
+    "2. Exploitation/2.1 Web Application/2.1.7 File Upload Attacks.md",
+    "2. Exploitation/2.1 Web Application/2.1.6 Directory Traversal Attacks.md",
+    "2. Exploitation/2.1 Web Application/2.1.5 Authentication Attacks.md",
+    "2. Exploitation/2.1 Web Application/2.1.4 Command Injection Exploitation.md",
+    "2. Exploitation/2.1 Web Application/2.1.3 SQL Injection (SQLi) Exploitation.md",
+    "2. Exploitation/2.1 Web Application/2.1.2 Cross-Site Scripting (XSS) Exploitation.md",
+    "2. Exploitation/2.1 Web Application/2.1.1 Vulnerability Assessment.md",
+    "2. Exploitation/2.3 Active Directory Exploitation",
+    "2. Exploitation/2.2 Password Attacks",
+    "2. Exploitation/2.1 Web Application",
+    "2. Exploitation",
+    "1. Information Gathering/1.2 Active Information Gathering/1.2.8 Active Directory Enumeration.md",
+    "1. Information Gathering/1.2 Active Information Gathering/1.2.7 Linux Local Enumeration.md",
+    "1. Information Gathering/1.2 Active Information Gathering/1.2.6 Windows Local Enumeration.md",
+    "1. Information Gathering/1.2 Active Information Gathering/1.2.5 Web Application Enumeration.md",
+    "1. Information Gathering/1.2 Active Information Gathering/1.2.4 Service Enumeration.md",
+    "1. Information Gathering/1.2 Active Information Gathering/1.2.3 Share Enumeration.md",
+    "1. Information Gathering/1.2 Active Information Gathering/1.2.2 Port Scanning.md",
+    "1. Information Gathering/1.2 Active Information Gathering",
+    "1. Information Gathering/1.1 Passive Information Gathering",
+    "1. Information Gathering"
+  ]
+}
