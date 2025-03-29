@@ -60,6 +60,10 @@ Default databases are `master`, `tempdb`, `model`, and `msdb`.
 ###### Query Table in Specific Database
 `SELECT * FROM shellcorp.dbo.users;`
 The DBO table schema needs to go between the database and the table names.
+###### Find Password Columns in Databases
+`use <DatabaseName>; SELECT TABLE_CATALOG AS DatabaseName, TABLE_SCHEMA AS SchemaName, TABLE_NAME AS TableName, COLUMN_NAME AS ColumnName FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME like '%pass%';`
+Identify the table names for the next command.
+`user <DatabaseName>; SELECT top 1000 * FROM <TableName>`
 ###### Example Password Extraction from MSSQL Database
 `SELECT name, password_hash FROM sys.sql_logins WHERE name = 'pete';`
 ```
